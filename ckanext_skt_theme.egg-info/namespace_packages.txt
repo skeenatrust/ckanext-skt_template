@@ -1,0 +1,2 @@
+ckanext
+ckanext.skt_theme

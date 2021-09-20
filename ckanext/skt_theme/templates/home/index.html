@@ -1,0 +1,48 @@
+{% ckan_extends %}
+
+{% block primary_content %}
+    <div id="banner">
+      <div class="wrapper">
+        <p><strong>Welcome to the Skeena Salmon Data Centre.</strong> explore our <a href="/dataset">datasets</a>, <a href="mailto:info@skeenatrust.ca">suggest a dataset</a>, and most importantly, <a href="mailto:info@skeenatrust.ca">provide us with your feedback!</a></p>
+      </div>
+    </div>
+
+    <div class="container" role="main">
+      <div class="wrapper">
+        {% snippet 'home/snippets/search.html' %}
+
+        <nav id="category-nav" role="navigation" aria-labelledby="category-title">
+          <h2 id="category-title">Search by Category</h2>
+          <ul>
+            <li id="catnav-habitat"><a href="#">Habitat</a></li>
+            <li id="catnav-population"><a href="#">Population</a></li>
+            <li id="catnav-climatology"><a href="#">Climatology</a></li>
+            <li id="catnav-water"><a href="#">Water Quality</a></li>
+            <li id="catnav-boundaries"><a href="#">Boundaries</a></li>
+            <li id="catnav-ecology"><a href="#">Vegetation/Ecology</a></li>
+            <li id="catnav-infrastructure"><a href="#">Infrastructure</a></li>
+            <li id="catnav-landuse"><a href="#">Land Use and Development</a></li>
+          </ul>
+        </nav>
+
+{#
+        <div class="row">
+          <div class="span6">
+            <h3>Popular Datasets</h3>
+            <ul>
+            </ul>
+          </div>
+          <div class="span6">
+            <h3>Recently Updated</h3>
+            <ul>
+              <li>this</li>
+              <li>is</li>
+              <li>that</li>
+            </ul>
+          </div>
+        </div>
+#}
+      </div>
+    </div>
+
+{% endblock %}

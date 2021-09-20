@@ -1,0 +1,5 @@
+
+        [ckan.plugins]
+        # Add plugins here, e.g.
+        skt_theme=ckanext.skt_theme.plugin:SKTThemePlugin
+    
